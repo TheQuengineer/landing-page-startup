@@ -111,7 +111,7 @@ div {
 
 }
 
-.introduction h1, h3 {
+.introduction h1, .introduction h3 {
 	color: white;
 	text-align: center;
 	font-weight: 300;
@@ -149,10 +149,12 @@ div {
 }
 
 .cases .devices {
-	width: 33.3333333%;
+/*	width: 33.3333333%;
 	display: inline-flex;
-  	margin-right: -4px;
+  	margin-right: -4px;*/
 
+  	max-width: 900px;
+  	margin: 0 auto;
 }
 
 .cases .content {
